@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sambhanda-Create account</title>
+     <!-- favicon-link-->
+     <link rel="shortcut icon" href="Sambandhafavicon.png" type="image/x-icon">
+     <!-- css-link -->
+     <link rel="stylesheet" href="createaccount.css">
+     <!-- icon link -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="createacc">
+    <form action="index.html" method="post">
+    <h2>Create New Account</h2>
+    <div class="content">
+        <div class="input-box">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="   Enter full name" required>
+        </div>
+        <div class="input-box">
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username" placeholder="   Enter user name" required>
+        </div>
+        <div class="input-box">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="   Enter your valid email address" required>
+        </div>
+        <div class="input-box">
+            <label for="phonenumber">Phone Number</label>
+            <input type="tel" name="phonenumber" id="phonenumber" placeholder="   Phone Number" required>
+        </div>
+         <div class="input-box">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="   Enter new password" required>
+        </div>
+        <div class="input-box">
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="   Confirm Password" required>
+        </div>
+        <span class="gender-title">Gender</span>
+            <div class="gender-category">
+                <input type="radio" name="gender" id="male">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="other">
+                <label for="gender">Other</label>
+            </div>
+    </div>
+    <div class="alert">
+    <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a> You may receive SMS Notifications from us but you retain the ability to unsubscribe at any time.Sign Up.</p>
+    </div>
+    <div class="buttom-signup">
+        <a href="/index.html" id="submitButton"><button type="button">Sign Up</button></a>
+    </div>
+    </form>
+</div>
+    
+</body>
+</html>
